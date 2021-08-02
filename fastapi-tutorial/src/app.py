@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pydantic_models import Item
+from .pydantic_models import Item
 
 app = FastAPI()
 
